@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# LifecylebookApp
-=======
+
 # ProjectApp
 >>>>>>> 2a58cbc (first commit)
 
