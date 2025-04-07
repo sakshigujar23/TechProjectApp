@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login to get started</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="logo">
+    <img src="Logo.svg">
+    <h3>Login to get started</h3>
+  </div>
+  <div class="container">
+    <form [formGroup]="myform" action="#" method="post">
+      <div class="title">Login</div>
+      <div class="input-box mb-3">
+        <input type="text" formControlName="email" class="form-control" placeholder="Enter Your Email" required>
+        <div *ngIf="email?.invalid && email?.touched">
+          <p *ngIf="email?.errors?.['required']" class="text-danger" style="text-align: left; font-size:medium;">Please
+            enter your email</p>
+          <p *ngIf="email?.errors?.['email']" class="text-danger" style="text-align: left; font-size:medium;">Please
+            Enter Email as Username</p>
+        </div>
+        <div class="underline"></div>
+      </div>
+      <div class="input-box mb-3">
+        <input type="password" formControlName="pass" class="form-control" placeholder="Enter Your Password" required>
+        <div *ngIf="pass?.invalid && pass?.touched">
+          <p *ngIf="pass?.errors?.['required']" class="text-danger" style="text-align: left; font-size:medium;">Please
+            Enter Password</p>
+          <p *ngIf="pass?.errors?.['minlength']" class="text-danger" style="text-align: left; font-size:medium;">Please
+            Enter min 8 char</p>
+        </div>
+        <div class="underline"></div>
+      </div>
+      <div class="input-box button">
+        <input type="submit" [routerLink]="['/create_projects']"  (click)="saveUser()" value="Login" [disabled]="!myform.valid">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

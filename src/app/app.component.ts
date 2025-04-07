@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ChildCompComponent } from "./child-comp/child-comp.component";
@@ -35,4 +36,21 @@ export class AppComponent implements OnInit{
   OnToggleChild(){
     this.isChildInvoked=!this.isChildInvoked
   }
+=======
+import { Component } from '@angular/core';
+import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
+import { LoginComponent } from "./login/login.component";
+import { TestCompComponent } from "./test-comp/test-comp.component";
+import { CreateProjectComponent } from "./create-project/create-project.component";
+import { HomeComponent } from "./home/home.component";
+
+@Component({
+  selector: 'app-root',
+  imports: [RouterOutlet, RouterModule, RouterLink, LoginComponent, TestCompComponent, CreateProjectComponent, HomeComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  title = 'ProjectApp';
+>>>>>>> 2a58cbc (first commit)
 }

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "lifecylebook-app",
+=======
+  "name": "project-app",
+>>>>>>> 2a58cbc (first commit)
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

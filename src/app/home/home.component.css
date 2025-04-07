@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #003366;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .logo{
+    color: aliceblue;
+    text-align: center;
+  
+  }
+  
+  .logo img {
+    height: 100px;
+
+  }
+  
+  .nav-links .btn {
+    text-decoration: none;
+    background: #87cbd7;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: right;
+  }
+  
+  .nav-links .btn:hover {
+    background: #32b8cd;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .hero-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    z-index: 10;
+  }
+  
+  .hero h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    text-decoration: none;
+    background: #ff5722;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background: #e64a19;
+  }
+  
+  /* Content Section */
+  .content {
+    padding: 20px;
+    margin-top: 20px;
+  }

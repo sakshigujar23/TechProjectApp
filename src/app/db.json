@@ -1,0 +1,82 @@
+{
+  "login": [
+    {
+      "id": "55e2",
+      "email": "gujarsakshi2001@gmail.com",
+      "pass": "sakshi@123"
+    },
+    {
+      "id": "86bd",
+      "email": "john@123gmail.com",
+      "pass": "john@123"
+    },
+    {
+      "id": "d69c",
+      "email": "gujarsakshi2001@gmail.com",
+      "pass": "sakshi@123"
+    },
+    {
+      "id": "6921",
+      "email": "gujarsakshi2001@gmail.com",
+      "pass": "sakshi@123"
+    },
+    {
+      "id": "b4de",
+      "email": "gujarsakshi2001@gmail.com",
+      "pass": "sakshi@123"
+    },
+    {
+      "id": "751a",
+      "email": "gujarsakshi2001@gmail.com",
+      "pass": "sakshi@123"
+    },
+    {
+      "id": "3aaa",
+      "email": "john@123gmail.com",
+      "pass": "john@123"
+    },
+    {
+      "id": "4ae2",
+      "email": "john@123gmail.com",
+      "pass": "john@123"
+    },
+    {
+      "id": "9642",
+      "email": "john@123gmail.com",
+      "pass": "john@123"
+    },
+    {
+      "id": "9941",
+      "email": "john@123gmail.com",
+      "pass": "john@123"
+    }
+  ],
+  "projectlist": [
+    {
+      "id": "975b",
+      "pname": "Line Filter",
+      "reason": "Business",
+      "type": "Internal",
+      "division": "Compressors",
+      "category": "Quality A",
+      "priority": "High",
+      "dept": "Maintenance",
+      "sdate": "2024-11-06",
+      "edate": "2024-12-06",
+      "loc": "Pune"
+    },
+    {
+      "id": "1394",
+      "pname": "Second Hand Car Selling",
+      "reason": "Business",
+      "type": "Vendor",
+      "division": "Compressors",
+      "category": "Quality A",
+      "priority": "High",
+      "dept": "Stores",
+      "sdate": "2025-04-09",
+      "edate": "2025-06-06",
+      "loc": "Pune"
+    }
+  ]
+}
